@@ -8,10 +8,17 @@ function max(arr) {
         }
     }
     return largestValue
+    console.log(largestValue)
 }
 
 function min(arr) {
+    let smallestValue = arr[0]
 
+    for (let i = 0; i < array.length; i++) {
+        if (arr[i] < smallestValue) {
+            samllestValue = arr[i]
+        }
+     return smallestValue
 }
 
 function mean(arr) {

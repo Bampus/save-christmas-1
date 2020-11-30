@@ -1,11 +1,13 @@
 
 function max(arr) {
-    let result = 0 
+    let largestValue = 0 
 
     for (let i = 0; i < array.length; i++) {
-        const element = array[i];
-        
+        if (arr[i] > largestValue) {
+            largestValue = arr[i]
+        }
     }
+    return largestValue
 }
 
 function min(arr) {
